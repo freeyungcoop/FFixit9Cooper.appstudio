@@ -1,9 +1,9 @@
 
 btnName.onClick = function(){
   membershipName = inptFirstName.value
-  if ((membershipName == members)
+  if (membershipName == members)
     NSB.MsgBox("Member is already registered")
-  else
+ else  
     members.push(inptFirstName.value)
     NSB.MsgBox("Member successfully registered")
 }
